@@ -5,3 +5,99 @@
   padding: 0;
   
 }
+
+body {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #f1f3f7;
+}
+
+p {color: #1e2430 ;}
+
+/*<<<==============================================>>>*/
+/*<<<=================== header ===================>>>*/
+/*<<<==============================================>>>*/
+
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75rem 1rem;
+  background-color: #1b314d;
+  border-bottom: 1px solid #1b314d;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.navbar-link {
+  color: #fff;
+}
+
+.navbar-link:hover {
+  text-shadow: 0 0 0.35px currentColor;
+}
+
+.logo {
+  color: #fff;
+  font-weight: bold;
+  /* temp logo*/
+}
+
+/*<<<============================================>>>*/
+/*<<<=================== Main ===================>>>*/
+/*<<<============================================>>>*/
+
+.main-wrapper {
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #c7d0dc;
+  border-radius: .5rem;
+}
+
+.section-title {
+  color: #2c4a6e;
+}
+
+.main {}
+
+.activities {}
+
+.act-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.act-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  background-color: #f1f3f7;
+  border-right: 4px solid #2c4a6e;
+  padding: .5rem;
+}
+
