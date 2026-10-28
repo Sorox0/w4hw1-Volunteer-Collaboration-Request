@@ -12,6 +12,12 @@ body {
   background-color: #f1f3f7;
 }
 
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 p {color: #1e2430 ;}
 
 .section-title {
@@ -193,3 +199,11 @@ p {color: #1e2430 ;}
 /*<<<==============================================>>>*/
 /*<<<=================== Footer ===================>>>*/
 /*<<<==============================================>>>*/
+
+.footer {
+  padding: 1rem 0;
+}
+
+@media (min-width:1280px) {
+  
+}
