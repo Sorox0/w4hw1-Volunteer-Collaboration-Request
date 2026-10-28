@@ -20,143 +20,148 @@
 
     <div class="main-wrapper">
         <main class="main">
-            <section class="section hero" id="hero">
-                <h1 class="section-title">درخواست همکاری داوطلبانه</h1>
-                <p>برای اجرا فعالیت‌های فرهنگی محله، همکاری داوطلبانهٰ تازه‌کارها و افراد باتجربه را ‌می‌پذیریم. علاقهٰ خود را معرفی کنید تا امکان همکاری بعداً بررسی شود.</p>
-            </section>
-
-            <section class="section activities" id="activities">
-                <h2 class="section-title">فعالیت‌ها</h2>
-                <div class="act-card-wrapper">
-                    <div class="act-card">
-                        <h3 class="section-title">آموزش</h3>
-                        <p>همراهی با مربی برای آماده‌سازی تمرین و پاسخ به پرسش‌های مقدماتی هنرجویان. </p>
-                    </div>
-                    <div class="act-card">
-                        <h3 class="section-title">رویداد</h3>
-                        <p>کمک در آماده‌کردن فضاو راهنمایی مهمانان و مرتب کردن محل پس از برنامه. </p>
-                    </div>
-                    <div class="act-card">
-                        <h3 class="section-title">کتابخانه</h3>
-                        <p>مرتب کردن کتاب‌ها آماده کردن فهرست معرفی و کمک به خوانندگان برای یافتن کتاب. </p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="schedule">
-                <h2 class="section-title">زمان‌های همکاری</h2>
-                <p>نمونه زمان‌های همکاری</p>
-                <table class="schedule">
-                    <tr>
-                        <th>فعالیت‌</th>
-                        <th>روز</th>
-                        <th>بازه</th>
-                        <th>ساعت</th>
-                    </tr>
-                    <tr>
-                        <td>آموزش</td>
-                        <td>شنبه</td>
-                        <td>صبح</td>
-                        <td>۹ تا ۱۲</td>
-                    </tr>
-                    <tr>
-                        <td>رویداد</td>
-                        <td>دوشنبه</td>
-                        <td>عصر</td>
-                        <td>۱۶ تا ۱۹</td>
-                    </tr>
-                    <tr>
-                        <td>کتابخانه</td>
-                        <td>چهارشنبه</td>
-                        <td>صبح</td>
-                        <td>۹ تا ۱۲</td>
-                    </tr>
-                </table>
-                <p class="text-secondary">صبح یعنی ۹ تا ۱۲ و عصر یعنی ۱۶ تا ۱۹، انتخاب بازه و علاقه در فرم فقط ترجیح شماست؛ تطبیق روز، ظرفیت یا تأیید همکاری در این صفحه انجام نمی‌شود.</p>
-            </section>
-
-            <section class="section" id="form">
-                <h2 class="section-title">درخواست همکاری</h2>
-                <form class="form">
-                    <div class="form-section">
-                        <label for="name" class="label" name="name">نام و نام خانوادگی <span class="text-tertiary">(اجباری)</span></label>
-                        <input type="text" class="input" id="name" name="name" required>
-                    </div>
-
-                    <div class="form-section">
-                        <label for="email" class="label" name="email">ایمیل <span class="text-tertiary">(اجباری)</span></label>
-                        <input type="email" class="input" id="email" name="email" required>
-                    </div>
-
-                    <div class="form-section">
-                        <label for="phone" class="label" name="phone">تلفن <span class="text-secondary">(اختیاری)</span></label>
-                        <input type="tel" class="input" id="phone" name="phone">
-                    </div>
-                    <fieldset class="fieldset">
-                        <legend class="label">بازهٰ ترجیحی <span class="text-tertiary">(اجباری؛ دقیقاً یک مورد)</span></legend>
-                        <div class="fieldset-section">
-                            <input type="radio" class="input" id="morning" name="time-slot" required>
-                            <label for="morning" class="label">صبح</label>
+            <div class="content-wrapper">
+                <section class="section hero" id="hero">
+                    <h1 class="section-title">درخواست همکاری داوطلبانه</h1>
+                    <p>برای اجرا فعالیت‌های فرهنگی محله، همکاری داوطلبانهٰ تازه‌کارها و افراد باتجربه را ‌می‌پذیریم. علاقهٰ خود را معرفی کنید تا امکان همکاری بعداً بررسی شود.</p>
+                </section>
+    
+                <section class="section" id="activities">
+                    <h2 class="section-title">فعالیت‌ها</h2>
+                    <div class="act-card-wrapper">
+                        <div class="act-card">
+                            <h3 class="section-title">آموزش</h3>
+                            <p>همراهی با مربی برای آماده‌سازی تمرین و پاسخ به پرسش‌های مقدماتی هنرجویان. </p>
                         </div>
-                        
-                        <div class="fieldset-section">
-                            <input type="radio" class="input" id="evening" name="time-slot" required>
-                            <label for="evening" class="label">عصر</label>
+                        <div class="act-card">
+                            <h3 class="section-title">رویداد</h3>
+                            <p>کمک در آماده‌کردن فضاو راهنمایی مهمانان و مرتب کردن محل پس از برنامه. </p>
                         </div>
-                    </fieldset>
-
-                    <fieldset class="fieldset">
-                        <legend class="label">علاقه به فعالیت‌ها <span class="text-secondary">(اختیاری؛ صفر تا سه مورد)</span></legend>
-                        <div class="fieldset-section">
-                            <input type="checkbox" class="input" id="education" name="form-activities">
-                            <label for="education" class="label">آموزش</label>
+                        <div class="act-card">
+                            <h3 class="section-title">کتابخانه</h3>
+                            <p>مرتب کردن کتاب‌ها آماده کردن فهرست معرفی و کمک به خوانندگان برای یافتن کتاب. </p>
                         </div>
+                    </div>
+                </section>
+                
+                <section class="section" id="schedule">
+                    <h2 class="section-title">زمان‌های همکاری</h2>
+                    <p>نمونه زمان‌های همکاری</p>
+                    <table class="schedule">
+                        <tr>
+                            <th>فعالیت‌</th>
+                            <th>روز</th>
+                            <th>بازه</th>
+                            <th>ساعت</th>
+                        </tr>
+                        <tr>
+                            <td>آموزش</td>
+                            <td>شنبه</td>
+                            <td>صبح</td>
+                            <td>۹ تا ۱۲</td>
+                        </tr>
+                        <tr>
+                            <td>رویداد</td>
+                            <td>دوشنبه</td>
+                            <td>عصر</td>
+                            <td>۱۶ تا ۱۹</td>
+                        </tr>
+                        <tr>
+                            <td>کتابخانه</td>
+                            <td>چهارشنبه</td>
+                            <td>صبح</td>
+                            <td>۹ تا ۱۲</td>
+                        </tr>
+                    </table>
+                    <p class="text-secondary">صبح یعنی ۹ تا ۱۲ و عصر یعنی ۱۶ تا ۱۹، انتخاب بازه و علاقه در فرم فقط ترجیح شماست؛ تطبیق روز، ظرفیت یا تأیید همکاری در این صفحه انجام نمی‌شود.</p>
+                </section>
+                
+                <section class="section" id="contact">
+                    <h2 class="section-title">تماس</h2>
+                    <a href="volunteer@example.com" class="text-tertiary">volunteer@example.com</a>
+                </section>
+            </div>
 
-                        <div class="fieldset-section">
-                            <input type="checkbox" class="input" id="evant" name="form-activities">
-                            <label for="evant" class="label">رویداد</label>
+            <div class="form-wrapper">
+                <section class="section" id="form">
+                    <h2 class="section-title">درخواست همکاری</h2>
+                    <form class="form">
+                        <div class="form-section">
+                            <label for="name" class="label" name="name">نام و نام خانوادگی <span class="text-tertiary">(اجباری)</span></label>
+                            <input type="text" class="input" id="name" name="name" required>
                         </div>
-
-                        <div class="fieldset-section">
-                            <input type="checkbox" class="input" id="library" name="form-activities">
-                            <label for="library" class="label">کتابخانه</label>
+    
+                        <div class="form-section">
+                            <label for="email" class="label" name="email">ایمیل <span class="text-tertiary">(اجباری)</span></label>
+                            <input type="email" class="input" id="email" name="email" required>
                         </div>
-                    </fieldset>
+    
+                        <div class="form-section">
+                            <label for="phone" class="label" name="phone">تلفن <span class="text-secondary">(اختیاری)</span></label>
+                            <input type="tel" class="input" id="phone" name="phone">
+                        </div>
+                        <fieldset class="fieldset">
+                            <legend class="label">بازهٰ ترجیحی <span class="text-tertiary">(اجباری؛ دقیقاً یک مورد)</span></legend>
+                            <div class="fieldset-section">
+                                <input type="radio" class="input" id="morning" name="time-slot" required>
+                                <label for="morning" class="label">صبح</label>
+                            </div>
+                            
+                            <div class="fieldset-section">
+                                <input type="radio" class="input" id="evening" name="time-slot" required>
+                                <label for="evening" class="label">عصر</label>
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="fieldset">
+                            <legend class="label">علاقه به فعالیت‌ها <span class="text-secondary">(اختیاری؛ صفر تا سه مورد)</span></legend>
+                            <div class="fieldset-section">
+                                <input type="checkbox" class="input" id="education" name="form-activities">
+                                <label for="education" class="label">آموزش</label>
+                            </div>
+    
+                            <div class="fieldset-section">
+                                <input type="checkbox" class="input" id="evant" name="form-activities">
+                                <label for="evant" class="label">رویداد</label>
+                            </div>
+    
+                            <div class="fieldset-section">
+                                <input type="checkbox" class="input" id="library" name="form-activities">
+                                <label for="library" class="label">کتابخانه</label>
+                            </div>
+                        </fieldset>
+    
+                        <div class="form-section">
+                            <label for="name" class="label" name="name">سطح تجربه <span class="text-tertiary">(اجباری)</span></label>
+                            <select name="experience" id="experience" class="input select" required>
+                                <option class="experience-option" value="" selected disabled>سطح تجربه را انتخاب کنید</option>
+                                <option class="experience-option" value="new">تازه‌کار</option>
+                                <option class="experience-option" value="some-experience">تجربهٰ محدود</option>
+                                <option class="experience-option" value="experienced">باتجربه</option>
+                            </select>
+                        </div>
+    
+                        <div class="form-section">
+                            <label for="description" class="label" name="description">توضیح <span class="text-secondary">(اختیاری)</span></label>
+                            <textarea class="input" id="description" name="description" maxlength="300" rows="6"></textarea>
+                            <p class="text-secondary">حداکثر ۳۰۰ نویسه (تابپ یا paste).</p>
+                        </div>
+    
+                        <div class="terms">
+                            <input type="checkbox" class="input" id="terms" name="terms" required>
+                            <label for="terms" class="label">قوانین همکاری را می‌پذیرم <span class="text-tertiary">(اجباری)</span></label>
+                        </div>
+    
+                        <div class="terms-alert">
+                            <p>احترام به مراجعه کنندگان، حفظ اطلاعات شخصی آنان و هماهنگی با مسئول فعالیت‌ پیش از حضور لازم است.</p>
+                        </div>
+    
+                        <input class="submit" type="submit" value="ارسال درخواست آزمایشی">
+    
+                    </form>
+                </section>
+            </div>
 
-                    <div class="form-section">
-                        <label for="name" class="label" name="name">سطح تجربه <span class="text-tertiary">(اجباری)</span></label>
-                        <select name="experience" id="experience" class="input select" required>
-                            <option class="experience-option" value="" selected disabled>سطح تجربه را انتخاب کنید</option>
-                            <option class="experience-option" value="new">تازه‌کار</option>
-                            <option class="experience-option" value="some-experience">تجربهٰ محدود</option>
-                            <option class="experience-option" value="experienced">باتجربه</option>
-                        </select>
-                    </div>
-
-                    <div class="form-section">
-                        <label for="description" class="label" name="description">توضیح <span class="text-secondary">(اختیاری)</span></label>
-                        <textarea class="input" id="description" name="description" maxlength="300" rows="6"></textarea>
-                        <p class="text-secondary">حداکثر ۳۰۰ نویسه (تابپ یا paste).</p>
-                    </div>
-
-                    <div class="terms">
-                        <input type="checkbox" class="input" id="terms" name="terms" required>
-                        <label for="terms" class="label">قوانین همکاری را می‌پذیرم <span class="text-tertiary">(اجباری)</span></label>
-                    </div>
-
-                    <div class="terms-alert">
-                        <p>احترام به مراجعه کنندگان، حفظ اطلاعات شخصی آنان و هماهنگی با مسئول فعالیت‌ پیش از حضور لازم است.</p>
-                    </div>
-
-                    <input class="submit" type="submit" value="ارسال درخواست آزمایشی">
-
-                </form>
-            </section>
-
-            <section class="section" id="contact">
-                <h2 class="section-title">تماس</h2>
-                <a href="volunteer@example.com" class="text-tertiary">volunteer@example.com</a>
-            </section>
         </main>
 
         <hr>
